@@ -28,12 +28,19 @@ komutunu çalşıtırın. Aşağıdaki şekilde çıktı alacaksınız.
 "Sanada iyi geceler" değerinin "Sana da iyi geceler" olması bekleniyor.
 "Gelipte gitti" değerinin "Gelip de gitti" olması bekleniyor.
 "Raphael Benitez" değerinin "Raphael Benitez" olması bekleniyor.
-"Bende toplandık" değerinin "Ben de toplandık" olması bekleniyor.
-"Benim evde toplandık" değerinin "Benim ev de toplandık" olması bekleniyor.
 "Memnuniyetin bizide çok mutlu etti." değerinin "Memnuniyetin bizi de çok mutlu etti." olması bekleniyor.
 "Seninde yüreğin yansın" değerinin "Senin de yüreğin yansın" olması bekleniyor.
 "Böyle yapıpta nereye varmak istiyorsun" değerinin "Böyle yapıp da nereye varmak istiyorsun" olması bekleniyor.
 ```
 
+## Yanlış Pozitivite Oranı
+
+Program mevcut testler **%20** oranında yanlış pozitivite çıktı üretir. Aşağıdaki örnekler buna dahildir.
+
+```shell script
+"Bende toplandık" değerinin "Ben de toplandık" olması bekleniyor.
+"Benim evde toplandık" değerinin "Benim ev de toplandık" olması bekleniyor.
+```
+
 # Lisans
-MIT.
+MIT
