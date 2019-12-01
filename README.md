@@ -2,6 +2,8 @@
 
 Dahi `de`/`-de` farkını ayıran NLP projesidir.
 
+**⚠️ Bu proje şaka amaçlıdır, kullanmayın** ⚠️
+
 ## Yükleme
 
 ```shell script
