@@ -1,0 +1,23 @@
+{
+  "name": "dahi",
+  "version": "0.0.1",
+  "description": "de/-de farkını saptayan NLP projesi",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/f/dahi.git"
+  },
+  "keywords": [
+    "nlp",
+    "turkish"
+  ],
+  "author": "Fatih Kadir Akın <fatihkadirakin@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/f/dahi/issues"
+  },
+  "homepage": "https://github.com/f/dahi#readme"
+}
