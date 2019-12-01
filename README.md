@@ -2,6 +2,14 @@
 
 Dahi `de`/`-de` farkını ayıran NLP projesidir.
 
+## Yükleme
+
+```shell script
+npm install dahijs
+# ya da
+yarn add dahijs
+```
+
 ## Kullanım
 
 ```js
