@@ -5,7 +5,7 @@ Dahi `de`/`-de` farkını ayıran NLP projesidir.
 ## Kullanım
 
 ```js
-const dahi = require('dahi')
+const dahi = require('dahijs')
 
 dahi.fix('Bende sizinle geleceğim') # => 'Ben de sizinle geleceğim'
 ```
