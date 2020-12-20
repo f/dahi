@@ -16,15 +16,15 @@ function test(actual, expected, falsePos = false) {
   }
 }
 
-test('Bende geleceğim', 'Ben de geleceğim')
-test('Bende seni seviyorum', 'Ben de seni seviyorum')
+test('Bende gelecekmiyim', 'Ben de gelecek miyim')
+test('Bende seni seviyorummu', 'Ben de seni seviyorum mu')
 test('Sanada iyi geceler', 'Sana da iyi geceler')
-test('Gelipte gitti', 'Gelip de gitti')
-test('Raphael Benitez', 'Raphael Benitez')
-test('Bende toplandık', 'Ben de toplandık', true) // false pos
+test('Gelipte gittimi', 'Gelip de gitti mi')
+test('Raphael Benitezdemi', 'Raphael Benitez de mi')
+test('Bende toplanıp şalgamı içtik', 'Ben de toplanıp şalga mı içtik', true) // false pos
 test('Benim evde toplandık', 'Benim ev de toplandık', true) // false pos
 test('Memnuniyetin bizide çok mutlu etti.', 'Memnuniyetin bizi de çok mutlu etti.')
-test('Seninde yüreğin yansın', 'Senin de yüreğin yansın')
+test('Seninde yüreğin yansınmı', 'Senin de yüreğin yansın mı')
 test('Böyle yapıpta nereye varmak istiyorsun', 'Böyle yapıp da nereye varmak istiyorsun')
 
 console.log(`\nToplam ${totalTest} çalıştı, yanlış pozitivite oranı ${100 * totalFalsePos / 10}%`)
